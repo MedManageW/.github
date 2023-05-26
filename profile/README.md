@@ -5,4 +5,4 @@
 ![img2](https://github.com/MedManageW/.github/blob/main/resources/AppScreen2.png)
 ![img4](https://github.com/MedManageW/.github/blob/main/resources/hardware1.png)
 ![img5](https://github.com/MedManageW/.github/blob/main/resources/hardware2.png)
-![img6](https://github.com/MedManageW/.github/blob/main/resources/hardware3.png)
+![img6](https://github.com/MedManageW/.github/blob/main/resources/hardware3.jpg)
