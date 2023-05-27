@@ -1,6 +1,6 @@
 # MedMangeW
 
-Authors: [Xiaxi Shen](https://github.com/xshen053), [Shao-Jung(James) Kan](https://github.com/hjameskan), [Yenyen Liao], [Eric Chang], [Ivan Zenkovitch], [Zichao Chen]
+Authors: [Xiaxi Shen](https://github.com/xshen053), [Shao-Jung(James) Kan](https://github.com/hjameskan), [Yenyen Liao](https://github.com/yenyenn19), [Eric Chang], [Ivan Zenkovitch], [Zichao Chen](https://github.com/zcchen21)
 
 ## Project Background
 
@@ -15,6 +15,8 @@ The solution has a software component, which is a mobile app for patients, docto
 ## Our Tech Stack
 
 ### Software Team
+
+[Xiaxi Shen](https://github.com/xshen053), [Shao-Jung(James) Kan](https://github.com/hjameskan), [Yenyen Liao](https://github.com/yenyenn19)
 
 - [React Native](https://reactnative.dev/) - We will leverage the power of React Native, an open-source framework developed by Facebook, to build our mobile application. With React Native, we can write our app's code in JavaScript and create native-like mobile experiences for both iOS and Android platforms. Its declarative approach and extensive UI component library make it efficient and intuitive to develop highly dynamic and interactive user interfaces. Additionally, React Native's performance optimizations ensure that our app runs smoothly and efficiently, providing a seamless user experience.
 
@@ -43,6 +45,8 @@ The solution has a software component, which is a mobile app for patients, docto
 - [Git](https://git-scm.com/) - We will use Git as the version control tool to coordinate work, keep track of changes in our code, and keep our project up to date.
 
 ### Hardware Team
+
+Eric Chang, Ivan Zenkovitch, [Zichao Chen](https://github.com/zcchen21)
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - We used JavaScript for backend development of the dispenser.
 
