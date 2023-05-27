@@ -14,31 +14,57 @@ The solution has a software component, which is a mobile app for patients, docto
 
 - The languages/tools/technologies we used.
 
-  - [React Native](https://reactnative.dev/) - We will leverage the power of React Native, an open-source framework developed by Facebook, to build our mobile application. With React Native, we can write our app's code in JavaScript and create native-like mobile experiences for both iOS and Android platforms. Its declarative approach and extensive UI component library make it efficient and intuitive to develop highly dynamic and interactive user interfaces. Additionally, React Native's performance optimizations ensure that our app runs smoothly and efficiently, providing a seamless user experience.
+### Software Team
 
-  - [Redux](https://redux.js.org/) - Redux is a predictable state container for JavaScript apps. It is often used with libraries like React or Angular for building user interfaces. The main idea of Redux is that the entire state of an application is stored in a single central place called a "store". Actions trigger changes in this store, and the changes are made with pure functions called "reducers". This pattern can make it easier to reason about how state changes over time and to manage complex state that is shared among many components.
+- [React Native](https://reactnative.dev/) - We will leverage the power of React Native, an open-source framework developed by Facebook, to build our mobile application. With React Native, we can write our app's code in JavaScript and create native-like mobile experiences for both iOS and Android platforms. Its declarative approach and extensive UI component library make it efficient and intuitive to develop highly dynamic and interactive user interfaces. Additionally, React Native's performance optimizations ensure that our app runs smoothly and efficiently, providing a seamless user experience.
 
-  - [PostgreSQL](https://www.postgresql.org/) - PostgreSQL is an advanced, open-source relational database system. It supports both SQL (relational) and JSON (non-relational) querying. PostgreSQL is highly extensible and allows for custom functions; it's highly scalable both in the sheer quantity of data it can manage and in the number of concurrent users it can accommodate. It has robust support for distributed and parallel computing.
+- [Redux](https://redux.js.org/) - Redux is a predictable state container for JavaScript apps. It is often used with libraries like React or Angular for building user interfaces. The main idea of Redux is that the entire state of an application is stored in a single central place called a "store". Actions trigger changes in this store, and the changes are made with pure functions called "reducers". This pattern can make it easier to reason about how state changes over time and to manage complex state that is shared among many components.
 
-  - [AWS: RDS](https://aws.amazon.com/rds/) - RDS is a web service provided by Amazon Web Services (AWS) that makes it easier to set up, operate, and scale a relational database in the cloud. It supports several types of databases including PostgreSQL, MySQL, MariaDB, Oracle, and Microsoft SQL Server. It takes care of routine database tasks such as backup and restore, patch management, and replication.
+- [PostgreSQL](https://www.postgresql.org/) - PostgreSQL is an advanced, open-source relational database system. It supports both SQL (relational) and JSON (non-relational) querying. PostgreSQL is highly extensible and allows for custom functions; it's highly scalable both in the sheer quantity of data it can manage and in the number of concurrent users it can accommodate. It has robust support for distributed and parallel computing.
 
-  - [AWS: S3](https://aws.amazon.com/s3/) - S3 is an object storage service offered by AWS. It's designed to store and retrieve any amount of data from anywhere on the web. It provides scalability, high availability, and low latency with strong consistency. It's commonly used for backup and restore, archiving, content distribution, and data lakes for analytics.
+- [AWS: RDS](https://aws.amazon.com/rds/) - RDS is a web service provided by Amazon Web Services (AWS) that makes it easier to set up, operate, and scale a relational database in the cloud. It supports several types of databases including PostgreSQL, MySQL, MariaDB, Oracle, and Microsoft SQL Server. It takes care of routine database tasks such as backup and restore, patch management, and replication.
 
-  - [AWS: Route53](https://aws.amazon.com/route53/) - Route53 is a scalable and highly available Domain Name System (DNS) web service provided by AWS. It is designed to give developers and businesses a reliable and cost-effective way to route end users to Internet applications by translating domain names into the numeric IP addresses that computers use to connect to each other. Route53 also provides domain registration services, where you can register new domain names.
+- [AWS: S3](https://aws.amazon.com/s3/) - S3 is an object storage service offered by AWS. It's designed to store and retrieve any amount of data from anywhere on the web. It provides scalability, high availability, and low latency with strong consistency. It's commonly used for backup and restore, archiving, content distribution, and data lakes for analytics.
 
-  - [AWS: CodePipeline](https://aws.amazon.com/codepipeline/) - CodePipeline is a fully managed continuous integration and continuous deployment (CI/CD) service from AWS. It helps automate the build, test, and deploy phases of your release process every time there is a code change, based on the release model you define.
+- [AWS: Route53](https://aws.amazon.com/route53/) - Route53 is a scalable and highly available Domain Name System (DNS) web service provided by AWS. It is designed to give developers and businesses a reliable and cost-effective way to route end users to Internet applications by translating domain names into the numeric IP addresses that computers use to connect to each other. Route53 also provides domain registration services, where you can register new domain names.
 
-  - [AWS: Elastic BeanStalk](https://aws.amazon.com/elasticbeanstalk/) - Elastic Beanstalk: Elastic Beanstalk is a Platform as a Service (PaaS) provided by AWS. It allows developers to deploy and manage applications without having to understand the underlying infrastructure, as it automatically handles the capacity provisioning, load balancing, scaling, and application health monitoring. It supports several major languages, web servers, and databases.
+- [AWS: CodePipeline](https://aws.amazon.com/codepipeline/) - CodePipeline is a fully managed continuous integration and continuous deployment (CI/CD) service from AWS. It helps automate the build, test, and deploy phases of your release process every time there is a code change, based on the release model you define.
 
-  - [Express](https://expressjs.com/) -
+- [AWS: Elastic BeanStalk](https://aws.amazon.com/elasticbeanstalk/) - Elastic Beanstalk: Elastic Beanstalk is a Platform as a Service (PaaS) provided by AWS. It allows developers to deploy and manage applications without having to understand the underlying infrastructure, as it automatically handles the capacity provisioning, load balancing, scaling, and application health monitoring. It supports several major languages, web servers, and databases.
 
-  - [Sequelize](https://sequelize.org/) -
+- [Express](https://expressjs.com/) -
 
-  - [JavaScript](https://code.visualstudio.com/) - We use JS for frontend and backend development
+- [Sequelize](https://sequelize.org/) -
 
-  - [Visual Studio](https://cmake.org/) - We will use Visual Studio as an ide to develop the software.
+- [JavaScript](https://code.visualstudio.com/) - We use JS for frontend and backend development
 
-  - [Git](https://git-scm.com/) - We will use Git as the version control tool to coordinate work, keep track of changes in our code, and keep our project up to date.
+- [Visual Studio](https://cmake.org/) - We will use Visual Studio as an ide to develop the software.
+
+- [Git](https://git-scm.com/) - We will use Git as the version control tool to coordinate work, keep track of changes in our code, and keep our project up to date.
+
+### Hardware Team
+
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - We used JavaScript for backend development of the dispenser.
+
+- [Node.js](https://nodejs.org/) - We used Node.js for the server of our dispenser, which is a light-weight and efficient environment that uses JavaScript for building server-side applications
+
+- [Express](https://expressjs.com/) - The Express framework is used to simplify the process of building the server and APIs, specifically used for defining routes to handle HTTP requests and utilizing middleware to parse request bodies and error handling.
+
+- [Axios](https://axios-http.com/) - We used Axios to send HTTP requests from the dispenser to the mobile app for communication purpose
+
+- [PM2](https://pm2.keymetrics.io/) - PM2 is used to manage and run the servers of the dispenser in the background, and handles automatic reboot when the server crashed
+
+- [Ngrok](https://ngrok.com/) - ngrok is used to forward the requests of the local server to a public URL that can be reached from anywhere in the world
+
+- [Arduino Mega](https://store.arduino.cc/arduino-mega-2560-rev3)
+
+- [C++](https://en.cppreference.com/w/)
+
+- [AML-S905X-CC](https://www.96boards.org/product/tinker-board-s/)
+
+- [Ubuntu Server](https://ubuntu.com/server) - The Ubuntu server provides a Linux environment to run all of the applications and servers of the dispenser
+
+- [28BYJ-48 Motor](https://www.adafruit.com/product/858)
 
 - The input of our project would be []
 - The output of our project would be []
