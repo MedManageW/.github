@@ -77,11 +77,11 @@ Eric Chang, Ivan Zenkovitch, [Zichao Chen](https://github.com/zcchen21)
 
 ![img3](https://github.com/MedManageW/.github/blob/main/resources/OverallDesign.png)
 
-# Example picture and description
+## Example picture and description
 
-# Installation/Usage
+## Installation/Usage
 
-# Testing
+## Testing
 
 <!-- ![img3](https://github.com/MedManageW/.github/blob/main/resources/OverallDesign.png)
 ![img1](https://github.com/MedManageW/.github/blob/main/resources/AppScreen1.png)
