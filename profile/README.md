@@ -12,7 +12,7 @@ We are delivering a solution for Alzheimer's patients;
 
 The solution has a software component, which is a mobile app for patients, doctors, and caregivers to keep track of the medications that the patients are currently taking and detect any medical contraindications, as well as a hardware component, which dispenses the medications at the right time and reminds the patients to take the medications.
 
-- The languages/tools/technologies we used.
+## Our Tech Stack
 
 ### Software Team
 
