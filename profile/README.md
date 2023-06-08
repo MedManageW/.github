@@ -1,6 +1,6 @@
 # MedMangeW
 
-Authors: [Xiaxi Shen](https://github.com/xshen053), [Shao-Jung(James) Kan](https://github.com/hjameskan), [Yenyen Liao](https://github.com/yenyenn19), [Eric Chang], [Ivan Zenkovitch], [Zichao Chen](https://github.com/zcchen21)
+Authors: [Xiaxi Shen](https://github.com/xshen053), [Shao-Jung(James) Kan](https://github.com/hjameskan), [Yenyen Liao](https://github.com/yenyenn19), [Eric Chang](https://github.com/echang1116), [Ivan Zenkovitch](https://github.com/IvanZenk), [Zichao Chen](https://github.com/zcchen21)
 
 ## Project Background
 
@@ -46,7 +46,7 @@ The solution has a software component, which is a mobile app for patients, docto
 
 ### Hardware Team
 
-Eric Chang, Ivan Zenkovitch, [Zichao Chen](https://github.com/zcchen21)
+[Eric Chang](https://github.com/echang1116), [Ivan Zenkovitch](https://github.com/IvanZenk), [Zichao Chen](https://github.com/zcchen21)
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - We used JavaScript for backend development of the dispenser.
 
@@ -60,15 +60,16 @@ Eric Chang, Ivan Zenkovitch, [Zichao Chen](https://github.com/zcchen21)
 
 - [Ngrok](https://ngrok.com/) - ngrok is used to forward the requests of the local server to a public URL that can be reached from anywhere in the world
 
-- [Arduino Mega](https://store.arduino.cc/arduino-mega-2560-rev3)
+- [Arduino Mega](https://store.arduino.cc/arduino-mega-2560-rev3) - The Arduino Mega board is the microcontroller that we use to communicate with the AML-S905X-CC and to control the connected peripherals. The Arduino Mega receives  and sends commands on a serial port connected to the AML-S905X-CC. The Arduino Mega houses 54 digital pins, many of which are used to control the stepper motors which drive the dispenser.
 
-- [C++](https://en.cppreference.com/w/)
+- [C++](https://en.cppreference.com/w/) - The code for the Arduino Mega is written in a subset of C++, known as the Arduino Language. This language allows for low-level access to hardware and high performance, making it suitable for programming microcontrollers. We make use of the default Arduino library, as well as the Arduino Stepper Motor library.
 
-- [AML-S905X-CC](https://www.96boards.org/product/tinker-board-s/)
+- [AML-S905X-CC](https://www.96boards.org/product/tinker-board-s/) - The AML-S905X-CC (Le Potato) is a single board computer that we use to host the dispenser server. 
 
 - [Ubuntu Server](https://ubuntu.com/server) - The Ubuntu server provides a Linux environment to run all of the applications and servers of the dispenser
 
-- [28BYJ-48 Motor](https://www.adafruit.com/product/858)
+- [28BYJ-48 Motor](https://www.adafruit.com/product/858) - The 28BYJ-48 motor and ULN2003 stepper motor drivers are used to control each compartment of the physical dispenser. This stepper motor is sufficiently accurate enough to consistently dispense medication, and it is easily controlled with built in Arduino libraries. 
+
 
 - The input of our project would be []
 - The output of our project would be []
