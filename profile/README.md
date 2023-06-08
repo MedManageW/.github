@@ -70,19 +70,19 @@ The solution has a software component, which is a mobile app for patients, docto
 
 - [28BYJ-48 Motor](https://www.adafruit.com/product/858) - The 28BYJ-48 motor and ULN2003 stepper motor drivers are used to control each compartment of the physical dispenser. This stepper motor is sufficiently accurate enough to consistently dispense medication, and it is easily controlled with built in Arduino libraries. 
 
-
+<!-- 
 - The input of our project would be []
-- The output of our project would be []
+- The output of our project would be [] -->
 
 ## Overall Design
 
 ![img3](https://github.com/MedManageW/.github/blob/main/resources/OverallDesign.png)
 
-## Example picture and description
+<!-- ## Example picture and description
 
 ## Installation/Usage
 
-## Testing
+## Testing -->
 
 <!-- ![img3](https://github.com/MedManageW/.github/blob/main/resources/OverallDesign.png)
 ![img1](https://github.com/MedManageW/.github/blob/main/resources/AppScreen1.png)
